@@ -89,7 +89,7 @@ operation_menu.pack(fill="x")
 operation_menu.bind("<<ComboboxSelected>>", on_operation_change)
 
 import_button = tk.Button(frame, text="Import .key File", command=handle_import_key)
-import_button.pack_forget()  # Hidden initially
+import_button.pack_forget()  
 
 tk.Button(frame, text="Run", command=run_crypto).pack(pady=10)
 
